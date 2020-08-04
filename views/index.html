@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class='container'>
+      <div class="row">
+        <div class="col-md-4 col-lg-6">
+          <img src="img/logo.png" class="img-fluid">
+        </div>
+        <div class="col-md-8 col-lg-6">
+          <form class="form-inline">
+            <div class="form-group">
+              <div class='form-group'>
+                <label for="exampleinputemail3" class="sr-only">Email adress</label>
+                <input type="email" class="form-control" id="exampleinputemail3" placeholder="Enter email">
+              </div>
+              <div class='form-group'>
+                <label for="exampleinputpassword3" class="sr-only">Email password</label>
+                <input type="password" class="form-control" id="exampleinputpassword3" placeholder="Enter password">
+              </div>
+              <button type="subumit" class="btn btn-light">Sign in</button>
+            </div>
+            <div class='checkbox'>
+              <label>
+                <input type="checkbox">Remember me
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class='container'>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+        aria-controls="#navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div class='collapse navbar-collapse' id="navbarsExample09">
+    <ul class="nav navbar-nav">
+      <li class="active">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li>
+        <a href="members.html" class="nav-link">Members</a>
+      </li>
+      <li>
+        <a href="groups.html" class="nav-link">Groups</a>
+      </li>
+      <li>
+        <a href="photos.html" class="nav-link">Photos</a>
+      </li>
+      <li>
+        <a href="profile.html" class="nav-link">Profile</a>
+      </li>
+    </ul>
+  </div>
+
+  <section>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-lg-8'>
+          <div class='card'>
+            <div class='card-heading'>
+              <h6 class="card-title">Wall</h6>
+            </div>
+            <div class='card-body'>
+              <form>
+                <div class='form-group'>
+                  <textarea class="form-control" placeholder="Write on Wall"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-secondary">Submit</button>
+                <div class='float-right'>
+                  <div class='btn-group'>
+                    <button type="button" class="btn btn-outline-secondary">
+                      <i class="fa fa-pencil">
+                        Text
+                      </i>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary">
+                      <i class="fa fa-file-image-o">
+                        Image
+                      </i>
+                    </button><button type="button" class="btn btn-outline-secondary">
+                      <i class="fa fa-file-video-o">
+                        Video
+                      </i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class='card post'>
+            <div class='card-body'>
+              <div class='row'>
+                <div class='col-sm-2'>
+                  <a href="profile.html" class="post-avatar thumbnail">
+                    <img src="../img/user.png" class="img-fluid">
+                    <div class='text-center'>
+                      Dev User
+                    </div>
+                    <div class='likes text-center'>
+                      7 likes
+                    </div>
+                  </a>
+                </div>
+                <div class='col-sm-10'>
+                  <div class='comment-form'>
+                    <div class='bubble'>
+                      <div class='pointer'>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti necessitatibus
+                          exercitationem
+                          rerum eius consequatur nobis? Omnis voluptates adipisci modi ullam neque, exercitationem qui
+                          excepturi. Provident ex sint ab nesciunt. Nisi.
+                        </p>
+                        <div class='pointer-border'></div>
+                      </div>
+                    </div>
+                    <p class="post-action">
+                      <a href="#">Comment</a> -
+                      <a href="#">Like</a> -
+                      <a href="#">Follow</a> -
+                      <a href="#">Share</a>
+                    </p>
+                    <form class="form-inline">
+                      <div class='form-group'>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Enter a comment">
+                      </div>
+                      <button type="submit" class="btn btn-outline-secondary">Add</button>
+                    </form>
+                  </div>
+                  <div class='clearfix'></div>
+                  <div class='comments'>
+                    <div class='comment'>
+                      <a href="#" class="comment-avatar pull-left">
+                        <img src="../img/user.png" class="img-fluid">
+                      </a>
+                      <div class='comment-text'>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='clearfix'></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-lg-4'>
+          <div class='card friends'>
+            <div class='card-heading'>
+              <h6 class="card-title">My Friends</h6>
+            </div>
+            <div class='card-body'>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a class="thumbnail" href="profile.html"></a>
+                  <img src="../img/user.png" class="img-thumbnail">
+                </li>
+                <li class="list-inline-item">
+                  <a class="thumbnail" href="profile.html"></a>
+                  <img src="../img/user.png" class="img-thumbnail">
+                </li>
+                <li class="list-inline-item">
+                  <a class="thumbnail" href="profile.html"></a>
+                  <img src="../img/user.png" class="img-thumbnail">
+                </li>
+                <li class="list-inline-item">
+                  <a class="thumbnail" href="profile.html"></a>
+                  <img src="../img/user.png" class="img-thumbnail">
+                </li>
+                <li class="list-inline-item">
+                  <a class="thumbnail" href="profile.html"></a>
+                  <img src="../img/user.png" class="img-thumbnail">
+                </li>
+                <li class="list-inline-item">
+                  <a class="thumbnail" href="profile.html"></a>
+                  <img src="../img/user.png" class="img-thumbnail">
+                </li>
+                <li class="list-inline-item">
+                  <a class="thumbnail" href="profile.html"></a>
+                  <img src="../img/user.png" class="img-thumbnail">
+                </li>
+                <li class="list-inline-item">
+                  <a class="thumbnail" href="profile.html"></a>
+                  <img src="../img/user.png" class="img-thumbnail">
+                </li>
+                <li class="list-inline-item">
+                  <a class="thumbnail" href="profile.html"></a>
+                  <img src="../img/user.png" class="img-thumbnail">
+                </li>
+              </ul>
+              <a href="friends.html" class="btn btn-primary">View All Friends</a>
+            </div>
+          </div>
+          <div class='card groups'>
+            <div class='card-heading'>
+              <h6 class='card-title'>Latest Groups</h6>
+            </div>
+            <div class='card-body'>
+              <div class='group-item'>
+                <img src="../img/group.png" class="img-fluid">
+                <h5><a href="#">Sample Group One</a></h5>
+                <p>Template of group</p>
+              </div>
+            </div>
+            <div class='card-body'>
+              <div class='group-item'>
+                <img src="../img/group.png" class="img-fluid">
+                <h5><a href="#">Sample Group One</a></h5>
+                <p>Template of group</p>
+              </div>
+            </div>
+            <div class='card-body'>
+              <div class='group-item'>
+                <img src="../img/group.png" class="img-fluid">
+                <h5><a href="#">Sample Group One</a></h5>
+                <p>Template of group</p>
+              </div>
+              <a href="groups.html" class="btn btn-primary">View All Groups</a>
+            </div>
+            <div class='clearfix'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class='container'>
+      <p>No Copyright &copy; 2018, All Rights Reserved</p>
+    </div>
+  </footer>
+  <script type="text/script" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script type="text/script" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js">
+  </script>
+  <script type="text/script" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js">
+  </script>
+  <script type="text/script" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js.map">
+  </script>
+  <script>
+    $document().delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+    $(function () {
+      $('[data-hover="tooltip"]').tooltip()
+    })
+  </script>
+</body>
+
+</html>
